@@ -5,9 +5,11 @@
 #include <cassert>
 using namespace std;
 
-const int LC = 1; // Least count of angle for the sensor
-const int MAX_DIST = 2; // Threshold Distance for the 
-const float WIDTH = 0.3;//Width of the robot
+// const float LC = 1; // Least count of angle for the sensor
+// const float MAX_DIST = 2; // Threshold Distance for the 
+// const float WIDTH = 0.3;//Width of the robot
+//moved to ODG-PF.h
+
 
 vector<obstacle> get_obstacles(vector<float> polar_dat){
     vector<obstacle> obs;
