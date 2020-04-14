@@ -1,3 +1,6 @@
+// int argMax = std::distance(x.begin(), std::max_element(x.begin(), x.end()));
+# pragma once
+
 #include <math.h>
 #include <vector>
 
@@ -6,12 +9,10 @@
 using namespace std;
 
 // constants
-const float Gamma;    //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
+const float Gamma = 5;    //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
 const float LC = 1; // Least count of angle for the sensor
 const float MAX_DIST = 2; // Threshold Distance for the algo
 const float WIDTH = 0.3;//Width of the robot
-
-
 
 //sample input array contaioning distanse values at 
 vector<float> input[360];
@@ -19,6 +20,15 @@ vector<float> input[360];
 
 //sample output array for storing potential field values
 vector<float> field[360];
+
+//will need more work
+float index_to_angle(int i){
+    return (PI*i)/180;
+}
+
+float angle_to_index(float a){
+    return (a*180)/PI;
+}
 
 
 class obstacle
@@ -57,18 +67,13 @@ void obstacle::compute_field(vector<float>& field)
     float phi = index_to_angle(phi); 
     for(int i=0;i < field.size();i++){
         float angle = index_to_angle(i);
-        field[i] = A*exp(-((theta-angle)*(theta-angle))/(2*phi*phi));
+        field[i] += A*exp(-((theta-angle)*(theta-angle))/(2*phi*phi));
     }
 }
 
 
-//will need more work
-float index_to_angle(int i){
-    return (PI*i)/180;
-}
-
-float angle_to_index(float a){
-    return (a*180)/PI;
+float get_goal_angle(float x, float y, float goal_x, float goal_y){
+    return atan((goal_y-y)/(goal_x-x));
 }
 
 void goal_field(vector<float>& field, float goal_angle){

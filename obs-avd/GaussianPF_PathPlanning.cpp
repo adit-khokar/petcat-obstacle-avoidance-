@@ -1,14 +1,12 @@
+# pragma once
 
 #include "ODG-PF.h"
 #include <iostream>
+#include <bits/stl_algo.h>
+#include <bits/stdc++.h>
 #include <numeric>
 #include <cassert>
 using namespace std;
-
-// const float LC = 1; // Least count of angle for the sensor
-// const float MAX_DIST = 2; // Threshold Distance for the 
-// const float WIDTH = 0.3;//Width of the robot
-//moved to ODG-PF.h
 
 
 vector<obstacle> get_obstacles(vector<float> polar_dat){
@@ -46,12 +44,27 @@ vector<obstacle> process_obs(vector<obstacle> obs){
     return obs;
 }
 
+float get_best_header(vector<float> potential){
+    float header = std::distance(potential.begin(), std::max_element(potential.begin(), potential.end()));
+    return header;
+}
+
 vector<float> polar_data(360); // vector of size 360 : length of free path along each dir
 vector<float> potential(360); // Final potential at each angle
 
-int main(int argc, char** argv){
-    vector<obstacle> Obs = get_obstacles(polar_data);
-    Obs = process_obs(Obs);
+float get_header_rad(vector<float> polardat, float goal_angle){
+    float header;
     
-    return 0;
+    auto obstacles = get_obstacles(polardat);
+    obstacles = process_obs(obstacles);
+
+    vector<float> potfield(360);
+    for(auto ob: obstacles){
+        ob.compute_field(potfield);
+    }
+    goal_field(potfield, goal_angle);
+
+    header = get_best_header(potential);
+
+    return index_to_angle(header);
 }
