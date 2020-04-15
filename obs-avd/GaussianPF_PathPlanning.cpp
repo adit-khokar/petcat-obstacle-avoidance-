@@ -11,11 +11,12 @@ using namespace std;
 
 vector<obstacle> get_obstacles(vector<float> polar_dat){
     vector<obstacle> obs;
+    // cout << "Init size = " << obs.size() << endl;
     int flag = 0; // represents whether an obs is being read
     float theta1;
     for(int i=0;i<polar_dat.size();i++){
         auto dist = polar_dat[i];
-        switch(flag - (dist<MAX_DIST)){
+        switch(flag - (int)(dist<MAX_DIST)){
             case -1 : // Start a new  obstacle
                 flag = 1;
                 theta1 = i;
@@ -34,6 +35,7 @@ vector<obstacle> get_obstacles(vector<float> polar_dat){
                 break;
         }
     }
+    // cout << "Fin size = " << obs.size() << endl;
     return obs;
 }
 
@@ -44,8 +46,8 @@ vector<obstacle> process_obs(vector<obstacle> obs){
     return obs;
 }
 
-float get_best_header(vector<float> potential){
-    float header = std::distance(potential.begin(), std::max_element(potential.begin(), potential.end()));
+int get_best_header(vector<float> potential){
+    int header = std::distance(potential.begin(), std::min_element(potential.begin(), potential.end()));
     return header;
 }
 
@@ -57,14 +59,13 @@ float get_header_rad(vector<float> polardat, float goal_angle){
     
     auto obstacles = get_obstacles(polardat);
     obstacles = process_obs(obstacles);
-
-    vector<float> potfield(360);
+    vector<float> potfield(360, 0);
     for(auto ob: obstacles){
         ob.compute_field(potfield);
     }
     goal_field(potfield, goal_angle);
 
-    header = get_best_header(potential);
+    header = get_best_header(potfield);
 
     return index_to_angle(header);
 }

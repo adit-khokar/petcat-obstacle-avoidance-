@@ -3,7 +3,8 @@
 
 #include <math.h>
 #include <vector>
-
+#include <iostream>
+using namespace std;
 #define PI 3.14159265
 
 using namespace std;
@@ -44,6 +45,7 @@ public:
     obstacle(float d_in, float phi_in,float theta_in);  //constructor
     void increase_width(float w); // 
     void compute_field(vector<float>& field);   //compute and add field to the total field
+    float get_theta(){ return theta;}
 };
 
 obstacle::obstacle(float d_in, float phi_in,float theta_in)
@@ -76,11 +78,12 @@ float get_goal_angle(float x, float y, float goal_x, float goal_y){
     return atan((goal_y-y)/(goal_x-x));
 }
 
-void goal_field(vector<float>& field, float goal_angle){
+void goal_field(vector<float> &field, float goal_angle){
     for (int i = 0; i < field.size(); i++)
     {
         float angle = index_to_angle(i);
-        field[i] = Gamma*abs(angle - goal_angle);
+        auto temp = Gamma*abs(angle - goal_angle);
+        field[i] += temp;
     }
     
 }
