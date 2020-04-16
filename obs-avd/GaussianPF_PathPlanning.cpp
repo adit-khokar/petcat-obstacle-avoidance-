@@ -6,12 +6,13 @@
 #include <bits/stdc++.h>
 #include <numeric>
 #include <cassert>
+#include "matplotlibcpp.h"
+namespace plt = matplotlibcpp;
 using namespace std;
 
 
 vector<obstacle> get_obstacles(vector<float> polar_dat){
     vector<obstacle> obs;
-    // cout << "Init size = " << obs.size() << endl;
     int flag = 0; // represents whether an obs is being read
     float theta1;
     for(int i=0;i<polar_dat.size();i++){
@@ -35,7 +36,6 @@ vector<obstacle> get_obstacles(vector<float> polar_dat){
                 break;
         }
     }
-    // cout << "Fin size = " << obs.size() << endl;
     return obs;
 }
 
@@ -47,7 +47,7 @@ vector<obstacle> process_obs(vector<obstacle> obs){
 }
 
 int get_best_header(vector<float> potential){
-    int header = std::distance(potential.begin(), std::min_element(potential.begin(), potential.end()));
+    int header = std::distance(potential.begin()+1, std::min_element(potential.begin(), potential.end()));
     return header;
 }
 
@@ -59,12 +59,16 @@ float get_header_rad(vector<float> polardat, float goal_angle){
     
     auto obstacles = get_obstacles(polardat);
     obstacles = process_obs(obstacles);
+    // For debugging
+    for(auto a:obstacles){
+        cout << "Obstacle is " << a.get_dist()<< "m away at angle "<<a.get_theta()<<" with width "<<a.get_phi()<<" \n";
+    }
+    cout << "Num obstacles = " << obstacles.size() << endl;
     vector<float> potfield(360, 0);
     for(auto ob: obstacles){
         ob.compute_field(potfield);
     }
     goal_field(potfield, goal_angle);
-
     header = get_best_header(potfield);
 
     return index_to_angle(header);
