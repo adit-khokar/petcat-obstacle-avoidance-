@@ -10,12 +10,12 @@ using namespace std;
 using namespace std;
 
 // constants
-const float Gamma = 5;    //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
+const float Gamma = 1;    //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
 const float LC = 1; // Least count of angle for the sensor
 const float MAX_DIST = 2; // Threshold Distance for the algo
 const float WIDTH = 0.3;//Width of the robot
 
-//sample input array contaioning distanse values at 
+//sample input array containiiter++<200 ng distanse values at 
 vector<float> input[360];
 
 
@@ -46,6 +46,8 @@ public:
     void increase_width(float w); // 
     void compute_field(vector<float>& field);   //compute and add field to the total field
     float get_theta(){ return theta;}
+    float get_dist(){return d;}
+    float get_phi(){ return phi;}
 };
 
 obstacle::obstacle(float d_in, float phi_in,float theta_in)
@@ -63,13 +65,14 @@ void obstacle::increase_width(float w){
     phi = angle_to_index(phi);
 }
 
-void obstacle::compute_field(vector<float>& field)
+void obstacle::compute_field(vector<float> &field)
 {
     float theta = index_to_angle(theta);
-    float phi = index_to_angle(phi); 
     for(int i=0;i < field.size();i++){
-        float angle = index_to_angle(i);
-        field[i] += A*exp(-((theta-angle)*(theta-angle))/(2*phi*phi));
+        float angle = i;
+        double temp = A*exp(-1*((theta-angle)*(theta-angle))/(2*phi*phi));
+    
+        field[i] += temp;   
     }
 }
 
@@ -82,7 +85,7 @@ void goal_field(vector<float> &field, float goal_angle){
     for (int i = 0; i < field.size(); i++)
     {
         float angle = index_to_angle(i);
-        auto temp = Gamma*abs(angle - goal_angle);
+        auto temp = (Gamma)*abs(angle - goal_angle);
         field[i] += temp;
     }
     
