@@ -10,12 +10,12 @@ using namespace std;
 using namespace std;
 
 // constants
-const float Gamma = 1;    //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
+float Gamma =0.5;   //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
 const float LC = 1; // Least count of angle for the sensor
 const float MAX_DIST = 2; // Threshold Distance for the algo
-const float WIDTH = 0.3;//Width of the robot
+const float WIDTH = 0;//Width of the robot
 
-//sample input array containiiter++<200 ng distanse values at 
+//sample input array containing distance values at 
 vector<float> input[360];
 
 
@@ -56,29 +56,39 @@ obstacle::obstacle(float d_in, float phi_in,float theta_in)
     phi = phi_in;
     theta = theta_in;
     A = (MAX_DIST-d)*exp(0.5);
-    // sigma = atan2((d*(tan(phi/2))+width/2),d);
 }
 
 void obstacle::increase_width(float w){
-    phi = index_to_angle(phi);
-    phi = 2*atan(2 * (d * (tan(phi/2)+ (w/2) ) ));
-    phi = angle_to_index(phi);
+    float phi_ = index_to_angle(phi);
+    phi_ = 2*atan((tan(phi_/2)+ (w/2) )/d );
+    phi_ = angle_to_index(phi_);
+    this->phi = phi_;
 }
 
 void obstacle::compute_field(vector<float> &field)
 {
-    float theta = index_to_angle(theta);
+    float theta = index_to_angle(this->theta);
+    float ph = index_to_angle(this->phi);
     for(int i=0;i < field.size();i++){
-        float angle = i;
-        double temp = A*exp(-1*((theta-angle)*(theta-angle))/(2*phi*phi));
-    
+        float angle = index_to_angle(i);
+        double temp = A*exp(-1*((theta-angle)*(theta-angle))/(2*ph*ph));
         field[i] += temp;   
     }
 }
 
 
 float get_goal_angle(float x, float y, float goal_x, float goal_y){
-    return atan((goal_y-y)/(goal_x-x));
+    float a = atan((goal_y-y)/(goal_x-x));
+    if(goal_y-y<0 && goal_x-x>0){
+        a = 2*PI + a;
+    }
+    else if(goal_y-y<0 && goal_x-x<0){
+        a = PI + a;
+    }
+    else if(goal_y-y>0 && goal_x-x<0){
+        a = PI+ a;
+    }
+    return a; 
 }
 
 void goal_field(vector<float> &field, float goal_angle){
