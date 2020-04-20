@@ -22,10 +22,10 @@ vector<float> get_scan_data(vector<rect> env, float x, float y){
     return res;
 }  
 
-const float START_X = 5;
-const float START_Y = 5;
-const float GOAL_X = 0;
-const float GOAL_Y = 0; 
+const float START_X = 0;
+const float START_Y = 0;
+const float GOAL_X = 5;
+const float GOAL_Y = 5; 
 
 const int eps = 0.6; //Epsilon permitted error in reaching the goal
 
@@ -35,11 +35,13 @@ float find_path(float gam, bool showPlot = true){
     vector<rect> env;
 
     env.push_back(rect(1,1, 2, 2));
-    // env.push_back(rect(1, 5, 2, 4));
+    env.push_back(rect(1, 5, 2, 4));
     env.push_back(rect(3, 3,4, 4));
     env.push_back(rect(3, 0, 4, 1));
 
-    
+    // env.push_back(rect(1, -1, 3, 1));
+    // env.push_back(rect(1, -4, 3, -2));
+
     float curx, cury;
     vector<float> x, y, u, v; // (u[i], v[i]) is the header dir vector at point (x[i],y[i])
 

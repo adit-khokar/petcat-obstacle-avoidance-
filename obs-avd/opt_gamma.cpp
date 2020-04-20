@@ -10,17 +10,27 @@ int main(){
     vector<float> gammas;
     vector<float> rewards;
 
-    for(float i=0;i<=2;i+=0.01){
-        cout << "Gamma = " << i << endl;
+    for(float i=0.5;i<=1.5;i+=0.01){
+        cout << "Gamma = " << i ;
         gammas.push_back(i);
-        rewards.push_back(find_path(i, false));
+        float reward = find_path(i, false);
+        cout << ", Reward = " << reward << endl;
+        rewards.push_back(reward);
+
     }
     plt::plot(gammas, rewards);
+    plt::xlabel("Gamma");
+    plt::ylabel("Rewards");
+    plt::title("Rewards vs Gamma");
+    int i_max = std::distance(rewards.end(), std::max_element(rewards.begin(), rewards.end()));
+    i_max = rewards.size() -1 + i_max;
+    vector<float> g_max = {gammas[i_max]};
+    vector<float> r_max = {rewards[i_max]};
+    plt::scatter(g_max, r_max);
     plt::show();
 
-    // Showing the path with maximum reward
-    auto g_max = gammas[std::distance(rewards.begin(), std::max_element(rewards.begin(), rewards.end()))];
-    find_path(g_max, true);
+    // Showing the path with max reward
+    find_path(1, true);
 
     return 0;
 }
