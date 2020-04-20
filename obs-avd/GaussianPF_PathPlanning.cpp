@@ -11,16 +11,7 @@ namespace plt = matplotlibcpp;
 using namespace std;
 
 
-void draw_circle(float cx, float cy, float rad){
-    vector<float> x;
-    vector<float> y;
-    for(int i =0;i<360;i++){
-        float a = index_to_angle(i);
-        x.push_back(cx+rad*cos(a));
-        y.push_back(cy+rad*sin(a));
-    }
-    plt::plot(x, y);
-}
+
 
 vector<obstacle> get_obstacles(vector<float> polar_dat){
     vector<obstacle> obs;
@@ -66,23 +57,24 @@ int get_best_header(vector<float> potential){
 vector<float> polar_data(360); // vector of size 360 : length of free path along each dir
 vector<float> potential(360); // Final potential at each angle
 
-float get_header_rad(vector<float> polardat, float goal_angle){
+float get_header_rad(vector<float> polardat, float goal_angle, bool showPlot){
     float header;
     
     auto obstacles = get_obstacles(polardat);
     // obstacles = process_obs(obstacles);
     // For debugging
-    for(auto a:obstacles){
-        cout << "Obstacle is " << a.get_dist()<< "m away at angle "<<a.get_theta()<<" with width "<<a.get_phi()<<" \n";
+    if(showPlot){
+        for(auto a:obstacles){
+            cout << "Obstacle is " << a.get_dist()<< "m away at angle "<<a.get_theta()<<" with width "<<a.get_phi()<<" \n";
+        }
+        cout << "Num obstacles = " << obstacles.size() << endl;
     }
-    cout << "Num obstacles = " << obstacles.size() << endl;
+    
     vector<float> potfield(360, 0);
     for(int i=0;i<obstacles.size();i++){
         obstacles[i].compute_field(potfield);
     }
     goal_field(potfield, goal_angle);
-    // plt::plot(potfield);
-    // plt::show();
     header = get_best_header(potfield);
 
     return index_to_angle(header);

@@ -4,7 +4,9 @@
 #include <math.h>
 #include <vector>
 #include <iostream>
+#include "matplotlibcpp.h"
 using namespace std;
+namespace plt = matplotlibcpp;
 #define PI 3.14159265
 
 using namespace std;
@@ -31,6 +33,16 @@ float angle_to_index(float a){
     return (a*180)/PI;
 }
 
+void draw_circle(float cx, float cy, float rad){
+    vector<float> x;
+    vector<float> y;
+    for(int i =0;i<360;i++){
+        float a = index_to_angle(i);
+        x.push_back(cx+rad*cos(a));
+        y.push_back(cy+rad*sin(a));
+    }
+    plt::plot(x, y);
+}
 
 class obstacle
 {
@@ -48,6 +60,7 @@ public:
     float get_theta(){ return theta;}
     float get_dist(){return d;}
     float get_phi(){ return phi;}
+    bool inVic();
 };
 
 obstacle::obstacle(float d_in, float phi_in,float theta_in)
@@ -76,6 +89,9 @@ void obstacle::compute_field(vector<float> &field)
     }
 }
 
+bool obstacle::inVic(){
+    return (d<=0.1);
+}
 
 float get_goal_angle(float x, float y, float goal_x, float goal_y){
     float a = atan((goal_y-y)/(goal_x-x));
@@ -99,4 +115,58 @@ void goal_field(vector<float> &field, float goal_angle){
         field[i] += temp;
     }
     
+}
+
+class rect{
+    float x1, x2, x3, x4;
+    float y1, y2, y3, y4;
+ public:
+    rect(float x1_, float y1_, float x3_, float y3_){   
+        x1 = x1_;
+        x2 = x3_;
+        x3 = x3_;
+        x4 = x1_;
+        y1 = y1_;
+        y2 = y1_;
+        y3 = y3_;
+        y4 = y3_;
+    }
+    bool on_line(float x, float y);
+    float get_min_dist(float x, float y, float theta);
+    void draw();
+
+};
+
+bool rect::on_line(float x, float y){
+    float cx = (x1+x2)/2;
+    float cy = (y1+y4)/2;
+    float rad = abs(x1-x2)/2;
+    if((x-cx)*(x-cx)+ (y-cy)*(y-cy) <= rad*rad)
+        return true;
+    
+    return false;
+}
+
+float rect::get_min_dist(float x, float y, float theta){
+    float d = 0;
+    if(this->on_line(x, y)){
+        float cx = (this->x1+this->x2)/2;
+        float cy = (this->y1+this->y4)/2;
+        float atoc = get_goal_angle(x, y,cx, cy);
+        return abs(theta-atoc);
+    }
+    for(d = 0; d < MAX_DIST; d+=0.001){
+        float xi, yi;
+        xi = x + d*cos(theta); 
+        yi = y + d*sin(theta);
+
+        if(this->on_line(xi, yi))
+            break;
+
+    }
+    return d;
+}
+
+void rect::draw(){
+    draw_circle((x1+x2)/2, (y1+y3)/2, abs(x2-x1)/2);
 }
