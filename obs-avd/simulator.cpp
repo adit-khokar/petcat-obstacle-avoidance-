@@ -34,13 +34,14 @@ float find_path(float gam, bool showPlot = true){
     Gamma = gam;
     vector<rect> env;
 
+    // env.push_back(rect(1, -1, 3, 1));
+    // env.push_back(rect(1, -4, 3, -2));
+
+
     env.push_back(rect(1,1, 2, 2));
     env.push_back(rect(1, 5, 2, 4));
     env.push_back(rect(3, 3,4, 4));
     env.push_back(rect(3, 0, 4, 1));
-
-    // env.push_back(rect(1, -1, 3, 1));
-    // env.push_back(rect(1, -4, 3, -2));
 
     float curx, cury;
     vector<float> x, y, u, v; // (u[i], v[i]) is the header dir vector at point (x[i],y[i])
@@ -82,5 +83,6 @@ float find_path(float gam, bool showPlot = true){
         cout << "Min = " << m << endl;
     }
     reward += (101-iter)/5;
+    reward -= min_dist[min_dist.size()-1];
     return reward;
 }
