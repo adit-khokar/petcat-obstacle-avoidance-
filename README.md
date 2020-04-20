@@ -8,13 +8,13 @@ Preliminary tests showed that the value for gamma should lie between 0 and 1.5.<
 ##### Test 1 
 [Moving from (0,0) to (4,-2)]</br>
 ![Rewards VS Gamma](obs-avd/RewardsVsGamma1.png)</br>
-  Best Path (Gamma = 0.59) : </br>
+  Best Path (Gamma = 1.47) : </br>
 ![Best Path](obs-avd/BestPath1.png)</br>
 
 ##### Test 2
 [Moving from (0, 0) to (5, 5)] </br>
 ![Reward Vs Gamma](obs-avd/RvsG2.png)</br>
-  Best Path (Gamma = 1.47) : </br>
+  Best Path (Gamma = 0.59) : </br>
 ![Best Path](obs-avd/BestPath2.png)</br>
 
 Both environments work well with Gamma = 1 </br>
