@@ -1,4 +1,4 @@
-//Append "  " to compile when using matplotlibcpp
+//Append "-std=c++11 -I/usr/include/python2.7 -lpython2.7" to compile when using matplotlibcpp
 
 # include "ODG-PF.h"
 # include "GaussianPF_PathPlanning.cpp"
@@ -30,8 +30,9 @@ int main(){
     plt::show();
 
     // Showing the path with max reward
-    find_path(g_max[0], true);
-    // cout << "Best gamma = " << g_max[0]<< endl;
+    // cout << "Reward = " << find_path(g_max[0], true) << endl;
+    cout << "Reward = " << find_path_mobile(g_max[0], true) << endl;    
+    cout << "Best gamma = " << g_max[0]<< endl;
 
     return 0;
 }

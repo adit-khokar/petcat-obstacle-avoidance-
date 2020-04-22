@@ -90,7 +90,7 @@ void obstacle::compute_field(vector<float> &field)
 }
 
 bool obstacle::inVic(){
-    return (d<=0.1);
+    return (d<=0.15);
 }
 
 float get_goal_angle(float x, float y, float goal_x, float goal_y){
@@ -131,6 +131,7 @@ class rect{
         y3 = y3_;
         y4 = y3_;
     }
+    
     bool on_line(float x, float y);
     float get_min_dist(float x, float y, float theta);
     void draw();
