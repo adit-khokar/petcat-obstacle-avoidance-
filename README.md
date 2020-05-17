@@ -26,7 +26,3 @@ We realised the need to use lower values for Gamma.</br>
 Best Path : Gamma = 0.59</br>
 ![Results with Gamma = 0.59](obs-avd/Mobile.gif)</br>
 
-
-\# TO DO
-  1. Improve the reward metrics
-  2. Path determination for mobile obstacles.
