@@ -21,6 +21,10 @@ Both environments work well with Gamma = 1 </br>
 ![Test 1 with Gamma = 1](obs-avd/T1_Gas1.png)</br>
 ![Test 2 with Gamma = 1](obs-avd/T2_Gas1.png)</br>
 
+### With Mobile Obstacles
+We realised the need to use lower values for Gamma.</br>
+Best Path : Gamma = 0.59</br>
+![Results with Gamma = 0.59](obs-avd/Mobile.gif)</br>
 
 
 \# TO DO
