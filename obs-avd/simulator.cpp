@@ -63,7 +63,7 @@ float find_path(float gam, bool showPlot = true){
         }
         if(showPlot)
             cout << "Goal angle : " << goal_angle << endl;
-        auto head_theta = get_header_rad(data, goal_angle, showPlot);
+        auto head_theta = get_header_rad(data, goal_angle, showPlot).first;
         if(showPlot)
             cout << "Header angle : "<< head_theta << endl;
         u.push_back(cos(head_theta));
@@ -100,9 +100,10 @@ float find_path(float gam, bool showPlot = true){
 float find_path_mobile(float gam, bool showPlot = true){
 
     Gamma = gam;
+    float vel = 0.2;
     vector<rect> env;
 
-    float yy = 2 ;
+    float yy = 2;
     env.push_back(rect(2, yy, 3,yy+1));
     env.push_back(rect(4, yy, 5,yy+1));
 
@@ -126,13 +127,16 @@ float find_path_mobile(float gam, bool showPlot = true){
         }
         if(showPlot)
             cout << "Goal angle : " << goal_angle << endl;
-        auto head_theta = get_header_rad(data, goal_angle, showPlot);
+        auto result = get_header_rad(data, goal_angle, showPlot);
+        auto head_theta = result.first;
+        auto field = result.second;
+        vel = 0.1 + 0.2*(field/2);
         if(showPlot)
             cout << "Header angle : "<< head_theta << endl;
         u.push_back(cos(head_theta));
         v.push_back(sin(head_theta));
-        curx += cos(head_theta)*0.2;
-        cury += sin(head_theta)*0.2;
+        curx += cos(head_theta)*vel;
+        cury += sin(head_theta)*vel;
         min_dist.push_back(pow(pow(curx-GOAL_X, 2)+ pow(cury-GOAL_Y, 2), 0.5));
 
         // Plotting the steps
@@ -145,8 +149,8 @@ float find_path_mobile(float gam, bool showPlot = true){
             plt::ylim(START_Y-1, GOAL_Y+1);
             plt::pause(0.01);
         }
-        env[0] = rect(2, yy + 2.5*sin(0.2*iter), 3, yy + 1 +2.5*sin(0.2*iter));
-        env[1] = rect(4, yy + 2.5*sin(0.2*iter), 5, yy + 1+ 2.5*sin(0.2*iter));
+        env[0] = rect(2, yy + 2.5*sin(0.3*iter), 3, yy + 1 +2.5*sin(0.3*iter));
+        env[1] = rect(4, yy + 2.5*sin(0.3*iter), 5, yy + 1+ 2.5*sin(0.3*iter));
     }       
     
     float m = min_dist[std::distance(min_dist.begin(), std::min_element(min_dist.begin(), min_dist.end()))];
@@ -160,3 +164,7 @@ float find_path_mobile(float gam, bool showPlot = true){
     reward -= min_dist[min_dist.size()-1];
     return reward;
 }
+
+/* Velocity control additions
+
+*/

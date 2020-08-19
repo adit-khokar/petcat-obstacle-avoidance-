@@ -1,5 +1,4 @@
 # pragma once
-
 #include "ODG-PF.h"
 #include <iostream>
 #include <bits/stl_algo.h>
@@ -9,9 +8,6 @@
 #include "matplotlibcpp.h"
 namespace plt = matplotlibcpp;
 using namespace std;
-
-
-
 
 vector<obstacle> get_obstacles(vector<float> polar_dat){
     vector<obstacle> obs;
@@ -57,25 +53,24 @@ int get_best_header(vector<float> potential){
 vector<float> polar_data(360); // vector of size 360 : length of free path along each dir
 vector<float> potential(360); // Final potential at each angle
 
-float get_header_rad(vector<float> polardat, float goal_angle, bool showPlot){
+pair<float, float> get_header_rad(vector<float> polardat, float goal_angle, bool showPlot){
     float header;
     
     auto obstacles = get_obstacles(polardat);
-    // obstacles = process_obs(obstacles);
-    // For debugging
     if(showPlot){
         for(auto a:obstacles){
             cout << "Obstacle is " << a.get_dist()<< "m away at angle "<<a.get_theta()<<" with width "<<a.get_phi()<<" \n";
         }
         cout << "Num obstacles = " << obstacles.size() << endl;
     }
-    
     vector<float> potfield(360, 0);
     for(int i=0;i<obstacles.size();i++){
         obstacles[i].compute_field(potfield);
     }
     goal_field(potfield, goal_angle);
     header = get_best_header(potfield);
-
-    return index_to_angle(header);
+    auto anti_header_field = potfield[((int)header+180)%360];
+    // cout <<"field at anti_header " <<anti_header_field << endl;
+    pair<float, float> result(index_to_angle(header), anti_header_field);
+    return result;
 }

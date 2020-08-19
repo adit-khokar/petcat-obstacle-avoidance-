@@ -1,0 +1,1 @@
+g++ $1 -o exec/$2 -std=c++14 -I/usr/include/python2.7 -lpython2.7
