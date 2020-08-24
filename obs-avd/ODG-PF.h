@@ -15,7 +15,7 @@ using namespace std;
 float Gamma =0.5;   //for attractive field to g (Had to change from gamma as that's a predefined var in mathcalls.h)
 const float LC = 1; // Least count of angle for the sensor
 const float MAX_DIST = 2; // Threshold Distance for the algo
-const float WIDTH = 0;//Width of the robot
+const float WIDTH = 0.3;//Width of the robot
 
 //sample input array containing distance values at 
 vector<float> input[360];

@@ -39,6 +39,11 @@ public:
         y = y_; 
         z = z_; 
     }
+
+    void display(){
+        cout << "X:"<<x << " Y:"<<y << " Z:"<<z << endl;
+    }
+
     void set(float x_, float y_, float z_ = 0.0f) { // setting values, z default for 2D
         this->x = x_; 
         this->y = y_; 
@@ -299,7 +304,7 @@ PVector PVector::rotate(PVector V, float theta){
     float a, b, c;
     c = 0;
     a = V.getx()*cos(theta) - V.gety()*sin(theta);
-    b = V.getx()*sin(theta) + V.getx()*cos(theta);
+    b = V.getx()*sin(theta) + V.gety()*cos(theta);
     v.set(a, b, c);
     return v;
 }

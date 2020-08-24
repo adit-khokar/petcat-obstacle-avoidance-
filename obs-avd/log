@@ -1,0 +1,1603 @@
+Gamma = 0, Reward = -8.01453
+Gamma = 0.01, Reward = -nan
+Gamma = 0.02, Reward = -nan
+Gamma = 0.03, Reward = -296.621
+Gamma = 0.04, Reward = -nan
+Gamma = 0.05, Reward = -296.601
+Gamma = 0.06, Reward = -nan
+Gamma = 0.07, Reward = -nan
+Gamma = 0.08, Reward = -196.572
+Gamma = 0.09, Reward = -nan
+Gamma = 0.1, Reward = -nan
+Gamma = 0.11, Reward = -95.6246
+Gamma = 0.12, Reward = -93.5017
+Gamma = 0.13, Reward = -nan
+Gamma = 0.14, Reward = -93.4621
+Gamma = 0.15, Reward = -290.586
+Gamma = 0.16, Reward = -89.5854
+Gamma = 0.17, Reward = -89.5747
+Gamma = 0.18, Reward = -89.5617
+Gamma = 0.19, Reward = -89.5167
+Gamma = 0.2, Reward = -89.4797
+Gamma = 0.21, Reward = -188.34
+Gamma = 0.22, Reward = -nan
+Gamma = 0.23, Reward = -188.282
+Gamma = 0.24, Reward = -189.623
+Gamma = 0.25, Reward = -189.604
+Gamma = 0.26, Reward = -189.543
+Gamma = 0.27, Reward = -189.58
+Gamma = 0.28, Reward = -288.566
+Gamma = 0.29, Reward = -89.4175
+Gamma = 0.3, Reward = -188.539
+Gamma = 0.31, Reward = 11.4226
+Gamma = 0.32, Reward = 10.5783
+Gamma = 0.33, Reward = -nan
+Gamma = 0.34, Reward = -nan
+Gamma = 0.35, Reward = -189.516
+Gamma = 0.36, Reward = -189.447
+Gamma = 0.37, Reward = -88.4629
+Gamma = 0.38, Reward = 11.4446
+Gamma = 0.39, Reward = 11.4665
+Gamma = 0.4, Reward = 11.5286
+Gamma = 0.41, Reward = 11.5515
+Gamma = 0.42, Reward = 12.5025
+Gamma = 0.43, Reward = 12.5975
+Gamma = 0.44, Reward = 12.5648
+Gamma = 0.45, Reward = 12.5997
+Gamma = 0.46, Reward = 12.4956
+Gamma = 0.47, Reward = 12.4514
+Gamma = 0.48, Reward = 12.4114
+Gamma = 0.49, Reward = 12.4067
+Gamma = 0.5, Reward = 12.4626
+Gamma = 0.51, Reward = 12.4966
+Gamma = 0.52, Reward = 12.5518
+Gamma = 0.53, Reward = -84.3901
+Gamma = 0.54, Reward = 13.5741
+Gamma = 0.55, Reward = -84.3003
+Gamma = 0.56, Reward = -84.2469
+Gamma = 0.57, Reward = -85.6162
+Gamma = 0.58, Reward = -85.5567
+Gamma = 0.59, Reward = -85.4951
+Gamma = 0.6, Reward = -85.4306
+Gamma = 0.61, Reward = -84.374
+Gamma = 0.62, Reward = -84.3137
+Gamma = 0.63, Reward = -85.5791
+Gamma = 0.64, Reward = -85.5211
+Gamma = 0.65, Reward = -85.4545
+Gamma = 0.66, Reward = -84.3968
+Gamma = 0.67, Reward = -84.3406
+Gamma = 0.68, Reward = -84.5916
+Gamma = 0.69, Reward = -84.5376
+Gamma = 0.7, Reward = -84.4772
+Gamma = 0.71, Reward = -84.4132
+Gamma = 0.72, Reward = -83.3601
+Gamma = 0.73, Reward = -83.3071
+Gamma = 0.74, Reward = -84.5806
+Gamma = 0.75, Reward = -84.5337
+Gamma = 0.76, Reward = -84.4765
+Gamma = 0.77, Reward = -83.326
+Gamma = 0.78, Reward = 15.5191
+Gamma = 0.79, Reward = 15.5758
+Gamma = 0.8, Reward = 16.6302
+Gamma = 0.81, Reward = 16.685
+Gamma = 0.82, Reward = 15.3816
+Gamma = 0.83, Reward = 15.4359
+Gamma = 0.839999, Reward = 15.4909
+Gamma = 0.849999, Reward = 15.5478
+Gamma = 0.859999, Reward = 16.6
+Gamma = 0.869999, Reward = 16.6537
+Gamma = 0.879999, Reward = 16.7078
+Gamma = 0.889999, Reward = -nan
+Gamma = 0.899999, Reward = -nan
+Gamma = 0.909999, Reward = 15.4698
+Gamma = 0.919999, Reward = 15.5137
+Gamma = 0.929999, Reward = 15.5576
+Gamma = 0.939999, Reward = 16.6016
+Gamma = 0.949999, Reward = 16.6441
+Gamma = 0.959999, Reward = 16.6863
+Gamma = 0.969999, Reward = 16.7234
+Gamma = 0.979999, Reward = 16.7707
+Gamma = 0.989999, Reward = 16.4046
+Gamma = 0.999999, Reward = 16.4498
+Gamma = 1.01, Reward = 16.4895
+Gamma = 1.02, Reward = 16.5263
+Gamma = 1.03, Reward = 16.5652
+Gamma = 1.04, Reward = 17.6056
+Gamma = 1.05, Reward = 17.6466
+Gamma = 1.06, Reward = 17.6858
+Gamma = 1.07, Reward = 17.7202
+Gamma = 1.08, Reward = 17.7591
+Gamma = 1.09, Reward = 17.7969
+Gamma = 1.1, Reward = 16.3856
+Gamma = 1.11, Reward = 16.4219
+Gamma = 1.12, Reward = 16.4557
+Gamma = 1.13, Reward = 16.4843
+Gamma = 1.14, Reward = 17.7572
+Gamma = 1.15, Reward = -nan
+Gamma = 1.16, Reward = 16.3747
+Gamma = 1.17, Reward = 16.4122
+Gamma = 1.18, Reward = 16.452
+Gamma = 1.19, Reward = 16.4908
+Gamma = 1.2, Reward = 16.5298
+Gamma = 1.21, Reward = 16.5675
+Gamma = 1.22, Reward = 17.6002
+Gamma = 1.23, Reward = 17.638
+Gamma = 1.24, Reward = 17.6794
+Gamma = 1.25, Reward = -nan
+Gamma = 1.26, Reward = 17.7632
+Gamma = 1.27, Reward = 17.7995
+Gamma = 1.28, Reward = 17.8405
+Gamma = 1.29, Reward = 16.3717
+Gamma = 1.3, Reward = 16.4097
+Gamma = 1.31, Reward = 16.4458
+Gamma = 1.32, Reward = 16.4791
+Gamma = 1.33, Reward = 16.5159
+Gamma = 1.34, Reward = 16.5489
+Gamma = 1.35, Reward = 16.5815
+Gamma = 1.36, Reward = 17.6166
+Gamma = 1.37, Reward = 17.6481
+Gamma = 1.38, Reward = 17.6545
+Gamma = 1.39, Reward = 17.6711
+Gamma = 1.4, Reward = 17.6841
+Gamma = 1.41, Reward = 17.7065
+Gamma = 1.42, Reward = 17.7265
+Gamma = 1.43, Reward = 17.7589
+Gamma = 1.44, Reward = 17.7731
+Gamma = 1.45, Reward = 17.8003
+Gamma = 1.46, Reward = 17.8249
+Gamma = 1.47, Reward = 17.8675
+Gamma = 1.48, Reward = 17.8868
+Gamma = 1.49, Reward = 17.9247
+Gamma = 1.5, Reward = 16.3806
+Reward = Obstacle is 1.69833m away at angle 45 with width 26 
+Num obstacles = 1
+Null V
+*	Speed = 7.40126
+elapsed time: 0.147755s
+Goal angle : 0.785398
+Obstacle is 1.69833m away at angle 45 with width 26 
+Num obstacles = 1
+Header angle : 0.785398
+*	Speed = 7.40126
+At 3.64094, 7.28188
+Goal angle : 5.24956
+Num obstacles = 0
+Header angle : 5.25344
+*	Speed = 6.93449
+At 3.96648, 7.89417
+Goal angle : 5.05538
+Num obstacles = 0
+Header angle : 5.06145
+*	Speed = 6.45929
+At 4.28288, 8.4573
+Goal angle : 4.91691
+Num obstacles = 0
+Header angle : 4.92183
+*	Speed = 5.98017
+At 4.58773, 8.97178
+Goal angle : 4.81582
+Num obstacles = 0
+Header angle : 4.81711
+*	Speed = 5.49941
+At 4.87932, 9.43805
+Goal angle : 4.73957
+Num obstacles = 0
+Header angle : 4.7473
+*	Speed = 5.01888
+At 5.15653, 9.85644
+Goal angle : 4.68017
+Num obstacles = 0
+Header angle : 4.67748
+*	Speed = 4.53908
+At 5.41828, 10.2273
+Goal angle : 4.63254
+Num obstacles = 0
+Header angle : 4.62512
+*	Speed = 4.06138
+At 5.66376, 10.5508
+Goal angle : 4.59338
+Num obstacles = 0
+Header angle : 4.59022
+*	Speed = 3.58768
+At 5.89239, 10.8273
+Goal angle : 4.56043
+Num obstacles = 0
+Header angle : 4.55531
+*	Speed = 3.11986
+At 6.10361, 11.0569
+Goal angle : 4.53216
+Num obstacles = 0
+Header angle : 4.53786
+*	Speed = 2.66226
+At 6.29711, 11.2398
+Goal angle : 4.50743
+Num obstacles = 0
+Header angle : 4.50295
+*	Speed = 2.21974
+At 6.47228, 11.3761
+Goal angle : 4.48546
+Num obstacles = 0
+Header angle : 4.4855
+*	Speed = 1.80525
+At 6.6288, 11.4661
+Goal angle : 4.46562
+Num obstacles = 0
+Header angle : 4.46804
+*	Speed = 1.44308
+At 6.76634, 11.5097
+Goal angle : 4.44743
+Num obstacles = 0
+Header angle : 4.45059
+*	Speed = 1.18219
+At 6.88453, 11.5073
+Goal angle : 4.4305
+Num obstacles = 0
+Header angle : 4.43314
+*	Speed = 1.09721
+At 6.98301, 11.459
+Goal angle : 4.41451
+Num obstacles = 0
+Header angle : 4.41568
+*	Speed = 1.22509
+At 7.0614, 11.3648
+Goal angle : 4.39918
+Num obstacles = 0
+Header angle : 4.39823
+*	Speed = 1.51258
+At 7.11927, 11.2251
+Goal angle : 4.38425
+Num obstacles = 0
+Header angle : 4.38078
+*	Speed = 1.88791
+At 7.15618, 11.0399
+Goal angle : 4.3695
+Num obstacles = 0
+Header angle : 4.36332
+*	Speed = 2.27397
+At 7.17336, 10.8132
+Goal angle : 4.35461
+Num obstacles = 0
+Header angle : 4.36332
+*	Speed = 2.63903
+At 7.17286, 10.5493
+Goal angle : 4.33918
+Num obstacles = 0
+Header angle : 4.34587
+*	Speed = 2.98355
+At 7.15567, 10.2514
+Goal angle : 4.32287
+Num obstacles = 0
+Header angle : 4.32842
+*	Speed = 3.30551
+At 7.1227, 9.9225
+Goal angle : 4.30526
+Num obstacles = 0
+Header angle : 4.31096
+*	Speed = 3.6048
+At 7.07476, 9.56522
+Goal angle : 4.28582
+Num obstacles = 0
+Header angle : 4.29351
+*	Speed = 3.88206
+At 7.01263, 9.18202
+Goal angle : 4.26385
+Num obstacles = 0
+Header angle : 4.2586
+*	Speed = 4.14691
+At 6.93615, 8.77444
+Goal angle : 4.23842
+Num obstacles = 0
+Header angle : 4.24115
+*	Speed = 4.39061
+At 6.84609, 8.34472
+Goal angle : 4.20806
+Num obstacles = 0
+Header angle : 4.20624
+*	Speed = 4.6222
+At 6.74233, 7.89429
+Goal angle : 4.17051
+Num obstacles = 0
+Header angle : 4.17134
+*	Speed = 4.84071
+At 6.62484, 7.4247
+Goal angle : 4.122
+Num obstacles = 0
+Header angle : 4.11898
+*	Speed = 5.05215
+At 6.4929, 6.93701
+Goal angle : 4.05576
+Num obstacles = 0
+Header angle : 4.04916
+*	Speed = 5.25902
+At 6.34528, 6.43226
+Goal angle : 3.9583
+Num obstacles = 0
+Header angle : 3.9619
+*	Speed = 5.45822
+At 6.18053, 5.91189
+Goal angle : 3.7993
+Num obstacles = 0
+Header angle : 3.80482
+*	Speed = 5.65092
+At 5.99543, 5.37797
+Goal angle : 3.50449
+Num obstacles = 0
+Header angle : 3.50811
+*	Speed = 5.80351
+At 5.78519, 4.83704
+Goal angle : 2.93696
+Num obstacles = 0
+Header angle : 2.93215
+*	Speed = 5.73195
+At 5.55026, 4.3142
+Goal angle : 2.24698
+Obstacle is 1.77478m away at angle 202 with width 24 
+Num obstacles = 1
+Header angle : 2.25147
+*	Speed = 5.30478
+At 5.31029, 3.84111
+Goal angle : 1.83241
+Obstacle is 1.42556m away at angle 190.5 with width 31 
+Num obstacles = 1
+Header angle : 1.8326
+*	Speed = 4.83326
+At 5.0776, 3.41748
+Goal angle : 1.61979
+Obstacle is 1.15594m away at angle 177 with width 36 
+Num obstacles = 1
+Header angle : 1.62316
+*	Speed = 4.3531
+At 4.85653, 3.04249
+Goal angle : 1.49763
+Obstacle is 1.00749m away at angle 161 with width 40 
+Num obstacles = 1
+Header angle : 1.50098
+*	Speed = 3.87087
+At 4.64931, 2.71553
+Goal angle : 1.41848
+Obstacle is 0.964334m away at angle 145.5 with width 41 
+Obstacle is 1.99704m away at angle 243 with width 2 
+Num obstacles = 2
+Header angle : 1.41372
+*	Speed = 3.38882
+At 4.45754, 2.43614
+Goal angle : 1.36229
+Obstacle is 1.00547m away at angle 132 with width 40 
+Obstacle is 1.73366m away at angle 243.5 with width 25 
+Num obstacles = 2
+Header angle : 1.36136
+*	Speed = 2.91092
+At 4.28176, 2.20411
+Goal angle : 1.31934
+Obstacle is 1.09142m away at angle 121 with width 38 
+Obstacle is 1.45575m away at angle 245 with width 30 
+Num obstacles = 2
+Header angle : 1.309
+*	Speed = 2.43967
+At 4.12254, 2.01926
+Goal angle : 1.2845
+Obstacle is 1.18131m away at angle 112.5 with width 35 
+Obstacle is 1.22392m away at angle 247.5 with width 35 
+Num obstacles = 2
+Header angle : 1.27409
+*	Speed = 1.98088
+At 3.98023, 1.88147
+Goal angle : 1.25475
+Obstacle is 1.26185m away at angle 106.5 with width 33 
+Obstacle is 1.03799m away at angle 250.5 with width 39 
+Num obstacles = 2
+Header angle : 1.23918
+*	Speed = 1.54498
+At 3.85531, 1.79055
+Goal angle : 1.2282
+Obstacle is 1.32051m away at angle 102 with width 32 
+Obstacle is 1.90566m away at angle 187 with width 16 
+Obstacle is 0.911644m away at angle 254.5 with width 43 
+Num obstacles = 3
+Header angle : 1.22173
+*	Speed = 1.16018
+At 3.74801, 1.74643
+Goal angle : 1.20346
+Obstacle is 1.3501m away at angle 98 with width 32 
+Obstacle is 1.82189m away at angle 186 with width 22 
+Obstacle is 0.840593m away at angle 258.5 with width 45 
+Num obstacles = 3
+Header angle : 1.20428
+*	Speed = 0.894133
+At 3.65864, 1.74898
+Goal angle : 1.17948
+Obstacle is 1.33588m away at angle 95 with width 32 
+Obstacle is 1.74763m away at angle 186.5 with width 25 
+Obstacle is 0.830254m away at angle 263 with width 46 
+Num obstacles = 3
+Header angle : 1.16937
+*	Speed = 0.859273
+At 3.58799, 1.7979
+Goal angle : 1.15548
+Obstacle is 1.2883m away at angle 93 with width 34 
+Obstacle is 1.68522m away at angle 188 with width 26 
+Obstacle is 0.871538m away at angle 266 with width 44 
+Num obstacles = 3
+Header angle : 1.15192
+*	Speed = 1.08109
+At 3.53654, 1.89298
+Goal angle : 1.1306
+Obstacle is 1.18117m away at angle 91.5 with width 35 
+Obstacle is 1.65813m away at angle 190.5 with width 27 
+Obstacle is 0.966212m away at angle 268.5 with width 41 
+Num obstacles = 3
+Header angle : 1.11701
+*	Speed = 1.44263
+At 3.50526, 2.03381
+Goal angle : 1.10401
+Obstacle is 1.04056m away at angle 90.5 with width 39 
+Obstacle is 1.65902m away at angle 194.5 with width 27 
+Obstacle is 1.1097m away at angle 269.5 with width 37 
+Num obstacles = 3
+Header angle : 1.09956
+*	Speed = 1.86592
+At 3.49479, 2.22011
+Goal angle : 1.07453
+Obstacle is 0.851748m away at angle 89.5 with width 45 
+Obstacle is 1.69722m away at angle 200 with width 26 
+Obstacle is 1.29779m away at angle 270.5 with width 33 
+Num obstacles = 3
+Header angle : 1.06465
+*	Speed = 2.31481
+At 3.50633, 2.4513
+Goal angle : 1.0407
+Obstacle is 0.614871m away at angle 90 with width 56 
+Obstacle is 1.78342m away at angle 205.5 with width 23 
+Obstacle is 1.53533m away at angle 269.5 with width 29 
+Num obstacles = 3
+Header angle : 1.02974
+*	Speed = 2.77622
+At 3.54118, 2.72673
+Goal angle : 1.00026
+Obstacle is 0.327912m away at angle 93 with width 80 
+Obstacle is 1.91403m away at angle 211 with width 16 
+Obstacle is 1.7984m away at angle 269 with width 24 
+Num obstacles = 3
+Header angle : 0.994838
+*	Speed = 3.24632
+At 3.60013, 3.04596
+Goal angle : 0.949148
+Obstacle is 0.949331m away at angle 108.5 with width 217 
+Num obstacles = 1
+Header angle : 0.942478
+*	Speed = 3.72305
+At 3.68354, 3.4088
+Goal angle : 0.879606
+Obstacle is 0.999226m away at angle 153.5 with width 229 
+Num obstacles = 1
+Header angle : 0.872665
+*	Speed = 4.19977
+At 3.79317, 3.81422
+Goal angle : 0.776601
+Obstacle is 0.994838m away at angle 227 with width 228 
+Num obstacles = 1
+Header angle : 0.767945
+*	Speed = 4.67248
+At 3.93165, 4.26048
+Goal angle : 0.605479
+Obstacle is 1.95922m away at angle 174.5 with width 11 
+Obstacle is 0.433201m away at angle 240.5 with width 69 
+Num obstacles = 2
+Header angle : 0.610865
+*	Speed = 5.13953
+At 4.10174, 4.74547
+Goal angle : 0.276124
+Obstacle is 0.953578m away at angle 244.5 with width 41 
+Num obstacles = 1
+Header angle : 0.279253
+*	Speed = 5.4577
+At 4.30822, 5.25067
+Goal angle : 5.93555
+Obstacle is 1.50539m away at angle 245.5 with width 29 
+Num obstacles = 1
+Header angle : 5.93412
+*	Speed = 5.34706
+At 4.53817, 5.73341
+Goal angle : 5.27437
+Obstacle is 1.97191m away at angle 245 with width 8 
+Num obstacles = 1
+Header angle : 5.27089
+*	Speed = 4.90741
+At 4.76957, 6.16617
+Goal angle : 4.90747
+Num obstacles = 0
+Header angle : 4.90438
+*	Speed = 4.4349
+At 4.99226, 6.54969
+Goal angle : 4.71738
+Num obstacles = 0
+Header angle : 4.71239
+*	Speed = 3.95534
+At 5.20232, 6.88484
+Goal angle : 4.60546
+Num obstacles = 0
+Header angle : 4.60767
+*	Speed = 3.4751
+At 5.39779, 7.17216
+Goal angle : 4.53126
+Num obstacles = 0
+Header angle : 4.53786
+*	Speed = 2.99699
+At 5.57743, 7.41205
+Goal angle : 4.47742
+Num obstacles = 0
+Header angle : 4.4855
+*	Speed = 2.5238
+At 5.74031, 7.60484
+Goal angle : 4.43548
+Num obstacles = 0
+Header angle : 4.43314
+*	Speed = 2.05918
+At 5.8855, 7.75086
+Goal angle : 4.40096
+Num obstacles = 0
+Header angle : 4.39823
+*	Speed = 1.61232
+At 6.01237, 7.85035
+Goal angle : 4.37111
+Num obstacles = 0
+Header angle : 4.36332
+*	Speed = 1.20321
+At 6.12027, 7.90359
+Goal angle : 4.34416
+Num obstacles = 0
+Header angle : 4.34587
+*	Speed = 0.888673
+At 6.20886, 7.91071
+Goal angle : 4.31875
+Num obstacles = 0
+Header angle : 4.31096
+*	Speed = 0.787317
+At 6.27742, 7.87201
+Goal angle : 4.29388
+Num obstacles = 0
+Header angle : 4.29351
+*	Speed = 0.97128
+At 6.32558, 7.78766
+Goal angle : 4.26852
+Num obstacles = 0
+Header angle : 4.27606
+*	Speed = 1.32658
+At 6.35293, 7.65785
+Goal angle : 4.24154
+Num obstacles = 0
+Header angle : 4.24115
+*	Speed = 1.7498
+At 6.35864, 7.48297
+Goal angle : 4.21171
+Num obstacles = 0
+Header angle : 4.20624
+*	Speed = 2.2018
+At 6.34186, 7.26343
+Goal angle : 4.17725
+Num obstacles = 0
+Header angle : 4.17134
+*	Speed = 2.64865
+At 6.3026, 7.00149
+Goal angle : 4.13544
+Num obstacles = 0
+Header angle : 4.13643
+*	Speed = 3.06571
+At 6.24178, 6.70101
+Goal angle : 4.0818
+Num obstacles = 0
+Header angle : 4.08407
+*	Speed = 3.45689
+At 6.15954, 6.36524
+Goal angle : 4.00828
+Num obstacles = 0
+Header angle : 4.01426
+*	Speed = 3.82435
+At 6.0555, 5.99723
+Goal angle : 3.89861
+Num obstacles = 0
+Header angle : 3.89208
+*	Speed = 4.17588
+At 5.92756, 5.59973
+Goal angle : 3.71555
+Num obstacles = 0
+Header angle : 3.71755
+*	Speed = 4.4979
+At 5.77318, 5.17726
+Goal angle : 3.36696
+Num obstacles = 0
+Header angle : 3.36849
+*	Speed = 4.73748
+At 5.58865, 4.74093
+Goal angle : 2.72699
+Obstacle is 1.94779m away at angle 211 with width 12 
+Num obstacles = 1
+Header angle : 2.72271
+*	Speed = 4.65801
+At 5.37987, 4.32454
+Goal angle : 2.0831
+Obstacle is 1.63102m away at angle 203.5 with width 27 
+Num obstacles = 1
+Header angle : 2.07694
+*	Speed = 4.22457
+At 5.1696, 3.95813
+Goal angle : 1.73217
+Obstacle is 1.31107m away at angle 195.5 with width 33 
+Num obstacles = 1
+Header angle : 1.72788
+*	Speed = 3.75746
+At 4.96819, 3.64092
+Goal angle : 1.54739
+Obstacle is 1.05148m away at angle 185.5 with width 39 
+Num obstacles = 1
+Header angle : 1.55334
+*	Speed = 3.28522
+At 4.77931, 3.37212
+Goal angle : 1.43605
+Obstacle is 0.857615m away at angle 174.5 with width 45 
+Num obstacles = 1
+Header angle : 1.43117
+*	Speed = 2.81332
+At 4.6053, 3.15106
+Goal angle : 1.36048
+Obstacle is 0.732112m away at angle 162.5 with width 51 
+Num obstacles = 1
+Header angle : 1.36136
+*	Speed = 2.3476
+At 4.44741, 2.97733
+Goal angle : 1.3041
+Obstacle is 0.648273m away at angle 151 with width 54 
+Num obstacles = 1
+Header angle : 1.29154
+*	Speed = 1.89259
+At 4.30698, 2.85046
+Goal angle : 1.25891
+Obstacle is 0.601522m away at angle 141.5 with width 57 
+Obstacle is 1.98864m away at angle 251.5 with width 5 
+Num obstacles = 2
+Header angle : 1.25664
+*	Speed = 1.46307
+At 4.18466, 2.77018
+Goal angle : 1.22024
+Obstacle is 0.564115m away at angle 133.5 with width 59 
+Obstacle is 1.9078m away at angle 253.5 with width 17 
+Num obstacles = 2
+Header angle : 1.20428
+*	Speed = 1.0875
+At 4.08137, 2.73614
+Goal angle : 1.18532
+Obstacle is 0.523319m away at angle 127 with width 62 
+Obstacle is 1.86208m away at angle 255 with width 20 
+Num obstacles = 2
+Header angle : 1.16937
+*	Speed = 0.844948
+At 3.99773, 2.74809
+Goal angle : 1.15204
+Obstacle is 0.46346m away at angle 123.5 with width 67 
+Obstacle is 1.85827m away at angle 257.5 with width 21 
+Num obstacles = 2
+Header angle : 1.15192
+*	Speed = 0.860625
+At 3.93398, 2.8059
+Goal angle : 1.11852
+Obstacle is 0.372661m away at angle 122 with width 74 
+Obstacle is 1.88825m away at angle 259 with width 18 
+Num obstacles = 2
+Header angle : 1.11701
+*	Speed = 1.12086
+At 3.89074, 2.90932
+Goal angle : 1.08299
+Obstacle is 0.255213m away at angle 123.5 with width 89 
+Obstacle is 1.95731m away at angle 260.5 with width 11 
+Num obstacles = 2
+Header angle : 1.0821
+*	Speed = 1.50467
+At 3.86846, 3.05812
+Goal angle : 1.04319
+Obstacle is 0.104192m away at angle 130 with width 120 
+Num obstacles = 1
+Header angle : 1.0472
+*	Speed = 1.94142
+At 3.86728, 3.25226
+Goal angle : 0.995754
+Obstacle is 0.994838m away at angle 146 with width 228 
+Num obstacles = 1
+Header angle : 0.994838
+*	Speed = 2.39643
+At 3.88883, 3.49093
+Goal angle : 0.936103
+Obstacle is 0.994838m away at angle 179 with width 228 
+Num obstacles = 1
+Header angle : 0.942478
+*	Speed = 2.86227
+At 3.93427, 3.77353
+Goal angle : 0.855409
+Obstacle is 0.0231699m away at angle 212.5 with width 153 
+Num obstacles = 1
+Header angle : 0.855211
+*	Speed = 3.3353
+At 4.00441, 4.09961
+Goal angle : 0.73523
+Obstacle is 0.335333m away at angle 230 with width 78 
+Num obstacles = 1
+Header angle : 0.733038
+*	Speed = 3.80474
+At 4.10229, 4.46727
+Goal angle : 0.535574
+Obstacle is 0.706641m away at angle 238.5 with width 51 
+Num obstacles = 1
+Header angle : 0.541052
+*	Speed = 4.25902
+At 4.23306, 4.8726
+Goal angle : 0.164609
+Obstacle is 1.12805m away at angle 242 with width 36 
+Num obstacles = 1
+Header angle : 0.15708
+*	Speed = 4.56102
+At 4.40168, 5.29639
+Goal angle : 5.82325
+Obstacle is 1.59334m away at angle 243 with width 28 
+Num obstacles = 1
+Header angle : 5.8294
+*	Speed = 4.47117
+At 4.59546, 5.69933
+Goal angle : 5.23682
+Obstacle is 1.96815m away at angle 243.5 with width 9 
+Num obstacles = 1
+Header angle : 5.23599
+*	Speed = 4.04445
+At 4.79275, 6.05239
+Goal angle : 4.90683
+Num obstacles = 0
+Header angle : 4.90438
+*	Speed = 3.58114
+At 4.98267, 6.356
+Goal angle : 4.72517
+Num obstacles = 0
+Header angle : 4.72984
+*	Speed = 3.11142
+At 5.16099, 6.61097
+Goal angle : 4.61279
+Num obstacles = 0
+Header angle : 4.60767
+*	Speed = 2.64211
+At 5.32516, 6.81799
+Goal angle : 4.5354
+Num obstacles = 0
+Header angle : 4.53786
+*	Speed = 2.17998
+At 5.47376, 6.97749
+Goal angle : 4.47724
+Num obstacles = 0
+Header angle : 4.4855
+*	Speed = 1.73319
+At 5.60574, 7.08984
+Goal angle : 4.43027
+Num obstacles = 0
+Header angle : 4.43314
+*	Speed = 1.31783
+At 5.72005, 7.15541
+Goal angle : 4.38998
+Num obstacles = 0
+Header angle : 4.39823
+*	Speed = 0.978021
+At 5.81597, 7.17448
+Goal angle : 4.3534
+Num obstacles = 0
+Header angle : 4.34587
+*	Speed = 0.81093
+At 5.89244, 7.14749
+Goal angle : 4.31853
+Num obstacles = 0
+Header angle : 4.31096
+*	Speed = 0.919522
+At 5.94871, 7.07477
+Goal angle : 4.28351
+Num obstacles = 0
+Header angle : 4.27606
+*	Speed = 1.23272
+At 5.98401, 6.95666
+Goal angle : 4.24642
+Num obstacles = 0
+Header angle : 4.24115
+*	Speed = 1.63672
+At 5.99751, 6.79355
+Goal angle : 4.20482
+Num obstacles = 0
+Header angle : 4.20624
+*	Speed = 2.07889
+At 5.98837, 6.58586
+Goal angle : 4.15506
+Num obstacles = 0
+Header angle : 4.15388
+*	Speed = 2.53608
+At 5.95532, 6.33441
+Goal angle : 4.09106
+Num obstacles = 0
+Header angle : 4.08407
+*	Speed = 2.97406
+At 5.898, 6.04258
+Goal angle : 4.00136
+Num obstacles = 0
+Header angle : 3.9968
+*	Speed = 3.38935
+At 5.81566, 5.7138
+Goal angle : 3.86049
+Num obstacles = 0
+Header angle : 3.85718
+*	Speed = 3.782
+At 5.70619, 5.35179
+Goal angle : 3.60376
+Num obstacles = 0
+Header angle : 3.59538
+*	Speed = 4.1326
+At 5.56549, 4.96322
+Goal angle : 3.07665
+Num obstacles = 0
+Header angle : 3.07178
+*	Speed = 4.29566
+At 5.39222, 4.57015
+Goal angle : 2.31045
+Obstacle is 1.74823m away at angle 209.5 with width 25 
+Num obstacles = 1
+Header angle : 2.30383
+*	Speed = 3.97187
+At 5.20503, 4.21984
+Goal angle : 1.82779
+Obstacle is 1.42568m away at angle 203 with width 30 
+Num obstacles = 1
+Header angle : 1.8326
+*	Speed = 3.51576
+At 5.0226, 3.9193
+Goal angle : 1.5917
+Obstacle is 1.15747m away at angle 195 with width 36 
+Num obstacles = 1
+Header angle : 1.58825
+*	Speed = 3.04604
+At 4.85112, 3.66755
+Goal angle : 1.45952
+Obstacle is 0.933564m away at angle 187 with width 42 
+Num obstacles = 1
+Header angle : 1.46608
+*	Speed = 2.57737
+At 4.69307, 3.46396
+Goal angle : 1.37357
+Obstacle is 0.76479m away at angle 178.5 with width 49 
+Num obstacles = 1
+Header angle : 1.36136
+*	Speed = 2.1139
+At 4.55045, 3.30793
+Goal angle : 1.31111
+Obstacle is 0.63465m away at angle 169.5 with width 55 
+Num obstacles = 1
+Header angle : 1.309
+*	Speed = 1.66649
+At 4.4242, 3.19914
+Goal angle : 1.26133
+Obstacle is 0.531197m away at angle 162 with width 60 
+Num obstacles = 1
+Header angle : 1.25664
+*	Speed = 1.25248
+At 4.31532, 3.13725
+Goal angle : 1.21856
+Obstacle is 0.454424m away at angle 156 with width 68 
+Num obstacles = 1
+Header angle : 1.20428
+*	Speed = 0.918885
+At 4.22472, 3.12188
+Goal angle : 1.17931
+Obstacle is 0.373945m away at angle 152.5 with width 75 
+Num obstacles = 1
+Header angle : 1.16937
+*	Speed = 0.781117
+At 4.153, 3.15282
+Goal angle : 1.14087
+Obstacle is 0.288786m away at angle 152 with width 84 
+Num obstacles = 1
+Header angle : 1.13446
+*	Speed = 0.931175
+At 4.10067, 3.22985
+Goal angle : 1.10073
+Obstacle is 0.200296m away at angle 156 with width 98 
+Num obstacles = 1
+Header angle : 1.09956
+*	Speed = 1.27124
+At 4.06821, 3.35276
+Goal angle : 1.05601
+Obstacle is 0.116844m away at angle 165.5 with width 115 
+Num obstacles = 1
+Header angle : 1.0472
+*	Speed = 1.68803
+At 4.0565, 3.52115
+Goal angle : 1.00291
+Obstacle is 0.0815276m away at angle 182.5 with width 127 
+Num obstacles = 1
+Header angle : 0.994838
+*	Speed = 2.13659
+At 4.06654, 3.73458
+Goal angle : 0.935234
+Obstacle is 0.149578m away at angle 202.5 with width 109 
+Num obstacles = 1
+Header angle : 0.925025
+*	Speed = 2.59822
+At 4.09984, 3.99226
+Goal angle : 0.841726
+Obstacle is 0.327404m away at angle 219.5 with width 79 
+Num obstacles = 1
+Header angle : 0.837758
+*	Speed = 3.06466
+At 4.15843, 4.29307
+Goal angle : 0.698666
+Obstacle is 0.594961m away at angle 230.5 with width 57 
+Num obstacles = 1
+Header angle : 0.698132
+*	Speed = 3.52761
+At 4.24564, 4.63488
+Goal angle : 0.450774
+Obstacle is 0.92873m away at angle 237 with width 42 
+Num obstacles = 1
+Header angle : 0.453786
+*	Speed = 3.9682
+At 4.36783, 5.01242
+Goal angle : 6.26354
+Obstacle is 1.31891m away at angle 240 with width 32 
+Num obstacles = 1
+Header angle : 6.26573
+*	Speed = 4.18717
+At 4.52639, 5.39995
+Goal angle : 5.58191
+Obstacle is 1.73282m away at angle 241.5 with width 25 
+Num obstacles = 1
+Header angle : 5.58505
+*	Speed = 3.96956
+At 4.70492, 5.75449
+Goal angle : 5.0852
+Num obstacles = 0
+Header angle : 5.07891
+*	Speed = 3.52599
+At 4.88262, 6.05904
+Goal angle : 4.82278
+Num obstacles = 0
+Header angle : 4.81711
+*	Speed = 3.06146
+At 5.05154, 6.31437
+Goal angle : 4.6732
+Num obstacles = 0
+Header angle : 4.67748
+*	Speed = 2.59522
+At 5.2083, 6.5212
+Goal angle : 4.5763
+Num obstacles = 0
+Header angle : 4.57276
+*	Speed = 2.13363
+At 5.35062, 6.68015
+Goal angle : 4.50666
+Num obstacles = 0
+Header angle : 4.50295
+*	Speed = 1.68603
+At 5.47705, 6.7917
+Goal angle : 4.45217
+Num obstacles = 0
+Header angle : 4.45059
+*	Speed = 1.27038
+At 5.58648, 6.85623
+Goal angle : 4.40636
+Num obstacles = 0
+Header angle : 4.39823
+*	Speed = 0.930846
+At 5.67782, 6.87415
+Goal angle : 4.36536
+Num obstacles = 0
+Header angle : 4.36332
+*	Speed = 0.778654
+At 5.75032, 6.84575
+Goal angle : 4.32628
+Num obstacles = 0
+Header angle : 4.32842
+*	Speed = 0.912663
+At 5.8032, 6.77136
+Goal angle : 4.28668
+Num obstacles = 0
+Header angle : 4.29351
+*	Speed = 1.24328
+At 5.83564, 6.65134
+Goal angle : 4.24392
+Num obstacles = 0
+Header angle : 4.24115
+*	Speed = 1.65439
+At 5.84643, 6.48625
+Goal angle : 4.19469
+Num obstacles = 0
+Header angle : 4.18879
+*	Speed = 2.09876
+At 5.83429, 6.27673
+Goal angle : 4.13358
+Num obstacles = 0
+Header angle : 4.13643
+*	Speed = 2.55851
+At 5.79791, 6.02348
+Goal angle : 4.05021
+Num obstacles = 0
+Header angle : 4.04916
+*	Speed = 3.00039
+At 5.73633, 5.72982
+Goal angle : 3.92255
+Num obstacles = 0
+Header angle : 3.92699
+*	Speed = 3.42033
+At 5.64787, 5.39943
+Goal angle : 3.69408
+Num obstacles = 0
+Header angle : 3.7001
+*	Speed = 3.8088
+At 5.52862, 5.0377
+Goal angle : 3.21279
+Num obstacles = 0
+Header angle : 3.21141
+*	Speed = 4.05905
+At 5.37459, 4.66216
+Goal angle : 2.40772
+Obstacle is 1.77449m away at angle 212 with width 24 
+Num obstacles = 1
+Header angle : 2.40855
+*	Speed = 3.82972
+At 5.20116, 4.3207
+Goal angle : 1.8587
+Obstacle is 1.46868m away at angle 206 with width 30 
+Num obstacles = 1
+Header angle : 1.85005
+*	Speed = 3.37561
+At 5.03105, 4.02914
+Goal angle : 1.60276
+Obstacle is 1.19551m away at angle 199.5 with width 35 
+Num obstacles = 1
+Header angle : 1.6057
+*	Speed = 2.90686
+At 4.87084, 3.78659
+Goal angle : 1.46475
+Obstacle is 0.975895m away at angle 191.5 with width 41 
+Num obstacles = 1
+Header angle : 1.46608
+*	Speed = 2.43775
+At 4.72356, 3.59233
+Goal angle : 1.37688
+Obstacle is 0.796249m away at angle 184.5 with width 47 
+Num obstacles = 1
+Header angle : 1.37881
+*	Speed = 1.97594
+At 4.5909, 3.44589
+Goal angle : 1.3134
+Obstacle is 0.661662m away at angle 177 with width 54 
+Num obstacles = 1
+Header angle : 1.309
+*	Speed = 1.53084
+At 4.47417, 3.34685
+Goal angle : 1.26284
+Obstacle is 0.549463m away at angle 171 with width 60 
+Num obstacles = 1
+Header angle : 1.25664
+*	Speed = 1.1254
+At 4.37437, 3.29485
+Goal angle : 1.21914
+Obstacle is 0.459266m away at angle 166.5 with width 67 
+Num obstacles = 1
+Header angle : 1.20428
+*	Speed = 0.820853
+At 4.29245, 3.28954
+Goal angle : 1.17857
+Obstacle is 0.374566m away at angle 165 with width 74 
+Num obstacles = 1
+Header angle : 1.16937
+*	Speed = 0.756254
+At 4.22901, 3.3307
+Goal angle : 1.13812
+Obstacle is 0.296488m away at angle 167 with width 82 
+Num obstacles = 1
+Header angle : 1.13446
+*	Speed = 0.980313
+At 4.18459, 3.41809
+Goal angle : 1.09486
+Obstacle is 0.234391m away at angle 173 with width 92 
+Num obstacles = 1
+Header angle : 1.0821
+*	Speed = 1.35445
+At 4.16017, 3.55132
+Goal angle : 1.04542
+Obstacle is 0.203763m away at angle 184.5 with width 97 
+Num obstacles = 1
+Header angle : 1.0472
+*	Speed = 1.78824
+At 4.15634, 3.7301
+Goal angle : 0.9844
+Obstacle is 0.240868m away at angle 199.5 with width 91 
+Num obstacles = 1
+Header angle : 0.977384
+*	Speed = 2.24374
+At 4.17463, 3.95373
+Goal angle : 0.902881
+Obstacle is 0.368599m away at angle 213.5 with width 75 
+Num obstacles = 1
+Header angle : 0.907571
+*	Speed = 2.70927
+At 4.21662, 4.22138
+Goal angle : 0.782349
+Obstacle is 0.581686m away at angle 225 with width 58 
+Num obstacles = 1
+Header angle : 0.785398
+*	Speed = 3.17509
+At 4.28516, 4.53141
+Goal angle : 0.580245
+Obstacle is 0.865265m away at angle 233 with width 44 
+Num obstacles = 1
+Header angle : 0.575959
+*	Speed = 3.62859
+At 4.3853, 4.88017
+Goal angle : 0.192521
+Obstacle is 1.21894m away at angle 237.5 with width 35 
+Num obstacles = 1
+Header angle : 0.191986
+*	Speed = 4.00892
+At 4.5267, 5.2553
+Goal angle : 5.78851
+Obstacle is 1.60935m away at angle 239.5 with width 27 
+Num obstacles = 1
+Header angle : 5.79449
+*	Speed = 3.94738
+At 4.69524, 5.61225
+Goal angle : 5.17425
+Obstacle is 1.94911m away at angle 240.5 with width 13 
+Num obstacles = 1
+Header angle : 5.16617
+*	Speed = 3.51838
+At 4.86702, 5.9193
+Goal angle : 4.85604
+Num obstacles = 0
+Header angle : 4.85202
+*	Speed = 3.05557
+At 5.03134, 6.17691
+Goal angle : 4.68576
+Num obstacles = 0
+Header angle : 4.67748
+*	Speed = 2.58748
+At 5.18385, 6.38594
+Goal angle : 4.58051
+Num obstacles = 0
+Header angle : 4.57276
+*	Speed = 2.12341
+At 5.32221, 6.54701
+Goal angle : 4.50704
+Num obstacles = 0
+Header angle : 4.50295
+*	Speed = 1.67228
+At 5.44496, 6.66058
+Goal angle : 4.45058
+Num obstacles = 0
+Header angle : 4.45059
+*	Speed = 1.25122
+At 5.55098, 6.72704
+Goal angle : 4.40357
+Num obstacles = 0
+Header angle : 4.39823
+*	Speed = 0.903667
+At 5.63916, 6.74678
+Goal angle : 4.36161
+Num obstacles = 0
+Header angle : 4.36332
+*	Speed = 0.74522
+At 5.70875, 6.72011
+Goal angle : 4.32155
+Num obstacles = 0
+Header angle : 4.32842
+*	Speed = 0.883956
+At 5.75894, 6.64735
+Goal angle : 4.28067
+Num obstacles = 0
+Header angle : 4.27606
+*	Speed = 1.21987
+At 5.78858, 6.52901
+Goal angle : 4.23623
+Num obstacles = 0
+Header angle : 4.24115
+*	Speed = 1.63723
+At 5.79679, 6.3655
+Goal angle : 4.18418
+Num obstacles = 0
+Header angle : 4.18879
+*	Speed = 2.08573
+At 5.78232, 6.15743
+Goal angle : 4.11801
+Num obstacles = 0
+Header angle : 4.11898
+*	Speed = 2.54686
+At 5.74342, 5.90573
+Goal angle : 4.02509
+Num obstacles = 0
+Header angle : 4.03171
+*	Speed = 2.99239
+At 5.67902, 5.6135
+Goal angle : 3.87635
+Num obstacles = 0
+Header angle : 3.87463
+*	Speed = 3.41972
+At 5.58625, 5.28435
+Goal angle : 3.5932
+Num obstacles = 0
+Header angle : 3.59538
+*	Speed = 3.8011
+At 5.46071, 4.92557
+Goal angle : 2.98143
+Obstacle is 1.94295m away at angle 216 with width 12 
+Num obstacles = 1
+Header angle : 2.98451
+*	Speed = 3.9535
+At 5.30145, 4.56372
+Goal angle : 2.17542
+Obstacle is 1.67506m away at angle 210.5 with width 27 
+Num obstacles = 1
+Header angle : 2.18166
+*	Speed = 3.57311
+At 5.13121, 4.24957
+Goal angle : 1.74389
+Obstacle is 1.37078m away at angle 204.5 with width 31 
+Num obstacles = 1
+Header angle : 1.74533
+*	Speed = 3.11245
+At 4.96722, 3.98503
+Goal angle : 1.53851
+Obstacle is 1.12148m away at angle 198.5 with width 37 
+Num obstacles = 1
+Header angle : 1.53589
+*	Speed = 2.64342
+At 4.81463, 3.76918
+Goal angle : 1.42131
+Obstacle is 0.91562m away at angle 191.5 with width 43 
+Num obstacles = 1
+Header angle : 1.41372
+*	Speed = 2.17709
+At 4.67596, 3.60134
+Goal angle : 1.34313
+Obstacle is 0.749749m away at angle 184.5 with width 49 
+Num obstacles = 1
+Header angle : 1.3439
+*	Speed = 1.72302
+At 4.55252, 3.48114
+Goal angle : 1.28429
+Obstacle is 0.61921m away at angle 179 with width 56 
+Num obstacles = 1
+Header angle : 1.27409
+*	Speed = 1.29473
+At 4.4456, 3.40812
+Goal angle : 1.23566
+Obstacle is 0.513394m away at angle 174.5 with width 63 
+Num obstacles = 1
+Header angle : 1.22173
+*	Speed = 0.931879
+At 4.35616, 3.38195
+Goal angle : 1.19209
+Obstacle is 0.422998m away at angle 172 with width 70 
+Num obstacles = 1
+Header angle : 1.18682
+*	Speed = 0.742482
+At 4.28479, 3.4024
+Goal angle : 1.14987
+Obstacle is 0.345486m away at angle 173 with width 78 
+Num obstacles = 1
+Header angle : 1.15192
+*	Speed = 0.851503
+At 4.23204, 3.46925
+Goal angle : 1.1058
+Obstacle is 0.281318m away at angle 177.5 with width 85 
+Num obstacles = 1
+Header angle : 1.09956
+*	Speed = 1.17594
+At 4.19893, 3.58208
+Goal angle : 1.05654
+Obstacle is 0.248843m away at angle 186.5 with width 89 
+Num obstacles = 1
+Header angle : 1.0472
+*	Speed = 1.58866
+At 4.18646, 3.74046
+Goal angle : 0.997306
+Obstacle is 0.276349m away at angle 199 with width 86 
+Num obstacles = 1
+Header angle : 0.994838
+*	Speed = 2.03622
+At 4.19571, 3.94387
+Goal angle : 0.919945
+Obstacle is 0.37893m away at angle 212.5 with width 73 
+Num obstacles = 1
+Header angle : 0.925025
+*	Speed = 2.49791
+At 4.22823, 4.19153
+Goal angle : 0.808614
+Obstacle is 0.569098m away at angle 223.5 with width 59 
+Num obstacles = 1
+Header angle : 0.802851
+*	Speed = 2.96187
+At 4.28681, 4.48187
+Goal angle : 0.628289
+Obstacle is 0.830754m away at angle 231 with width 46 
+Num obstacles = 1
+Header angle : 0.628319
+*	Speed = 3.41932
+At 4.37556, 4.81209
+Goal angle : 0.292309
+Obstacle is 1.15428m away at angle 236 with width 36 
+Num obstacles = 1
+Header angle : 0.296706
+*	Speed = 3.83557
+At 4.50312, 5.17381
+Goal angle : 5.94669
+Obstacle is 1.52466m away at angle 239 with width 28 
+Num obstacles = 1
+Header angle : 5.95157
+*	Speed = 3.88701
+At 4.66228, 5.52843
+Goal angle : 5.28106
+Obstacle is 1.87887m away at angle 240 with width 18 
+Num obstacles = 1
+Header angle : 5.28835
+*	Speed = 3.48993
+At 4.83093, 5.83397
+Goal angle : 4.91241
+Num obstacles = 0
+Header angle : 4.90438
+*	Speed = 3.033
+At 4.99378, 6.08984
+Goal angle : 4.7181
+Num obstacles = 0
+Header angle : 4.71239
+*	Speed = 2.56819
+At 5.14567, 6.29693
+Goal angle : 4.60054
+Num obstacles = 0
+Header angle : 4.60767
+*	Speed = 2.10785
+At 5.28414, 6.45585
+Goal angle : 4.51964
+Num obstacles = 0
+Header angle : 4.5204
+*	Speed = 1.66011
+At 5.40729, 6.56718
+Goal angle : 4.45813
+Num obstacles = 0
+Header angle : 4.45059
+*	Speed = 1.24248
+At 5.51364, 6.63141
+Goal angle : 4.40737
+Num obstacles = 0
+Header angle : 4.41568
+*	Speed = 0.904832
+At 5.60243, 6.64883
+Goal angle : 4.36209
+Num obstacles = 0
+Header angle : 4.36332
+*	Speed = 0.75838
+At 5.67253, 6.61988
+Goal angle : 4.31887
+Num obstacles = 0
+Header angle : 4.31096
+*	Speed = 0.901555
+At 5.72278, 6.54503
+Goal angle : 4.27482
+Num obstacles = 0
+Header angle : 4.27606
+*	Speed = 1.23974
+At 5.75239, 6.42464
+Goal angle : 4.2265
+Num obstacles = 0
+Header angle : 4.2237
+*	Speed = 1.65534
+At 5.76013, 6.25929
+Goal angle : 4.16931
+Num obstacles = 0
+Header angle : 4.17134
+*	Speed = 2.10244
+At 5.74475, 6.04961
+Goal angle : 4.09529
+Num obstacles = 0
+Header angle : 4.10152
+*	Speed = 2.56247
+At 5.70451, 5.79654
+Goal angle : 3.98823
+Num obstacles = 0
+Header angle : 3.9968
+*	Speed = 3.0113
+At 5.63767, 5.50293
+Goal angle : 3.8094
+Num obstacles = 0
+Header angle : 3.80482
+*	Speed = 3.44043
+At 5.54057, 5.17287
+Goal angle : 3.4511
+Num obstacles = 0
+Header angle : 3.45575
+*	Speed = 3.7958
+At 5.40873, 4.81692
+Goal angle : 2.72047
+Obstacle is 1.86414m away at angle 214.5 with width 19 
+Num obstacles = 1
+Header angle : 2.72271
+*	Speed = 3.80088
+At 5.24728, 4.47283
+Goal angle : 2.0094
+Obstacle is 1.57952m away at angle 209 with width 28 
+Num obstacles = 1
+Header angle : 2.00713
+*	Speed = 3.37132
+At 5.08264, 4.17863
+Goal angle : 1.67107
+Obstacle is 1.29994m away at angle 203.5 with width 33 
+Num obstacles = 1
+Header angle : 1.67552
+*	Speed = 2.90718
+At 4.92586, 3.93381
+Goal angle : 1.50137
+Obstacle is 1.06331m away at angle 197 with width 38 
+Num obstacles = 1
+Header angle : 1.50098
+*	Speed = 2.43909
+At 4.78105, 3.73754
+Goal angle : 1.39907
+Obstacle is 0.879704m away at angle 190.5 with width 45 
+Num obstacles = 1
+Header angle : 1.39626
+*	Speed = 1.97683
+At 4.65034, 3.58924
+Goal angle : 1.32784
+Obstacle is 0.725073m away at angle 184.5 with width 51 
+Num obstacles = 1
+Header angle : 1.32645
+*	Speed = 1.53096
+At 4.53506, 3.4885
+Goal angle : 1.27238
+Obstacle is 0.600715m away at angle 179.5 with width 57 
+Num obstacles = 1
+Header angle : 1.27409
+*	Speed = 1.12423
+At 4.43619, 3.43499
+Goal angle : 1.22501
+Obstacle is 0.501856m away at angle 176 with width 64 
+Num obstacles = 1
+Header angle : 1.22173
+*	Speed = 0.817645
+At 4.35469, 3.42836
+Goal angle : 1.18119
+Obstacle is 0.414141m away at angle 175 with width 70 
+Num obstacles = 1
+Header angle : 1.16937
+*	Speed = 0.746687
+At 4.29156, 3.46824
+Goal angle : 1.1376
+Obstacle is 0.34496m away at angle 177.5 with width 77 
+Num obstacles = 1
+Header angle : 1.13446
+*	Speed = 0.968108
+At 4.24739, 3.55438
+Goal angle : 1.09079
+Obstacle is 0.299975m away at angle 184.5 with width 83 
+Num obstacles = 1
+Header angle : 1.0821
+*	Speed = 1.34198
+At 4.22317, 3.68638
+Goal angle : 1.03675
+Obstacle is 0.29653m away at angle 194.5 with width 83 
+Num obstacles = 1
+Header angle : 1.02974
+*	Speed = 1.77396
+At 4.21995, 3.86374
+Goal angle : 0.969182
+Obstacle is 0.361736m away at angle 207 with width 76 
+Num obstacles = 1
+Header angle : 0.959931
+*	Speed = 2.22847
+At 4.23925, 4.08575
+Goal angle : 0.876782
+Obstacle is 0.504251m away at angle 218.5 with width 63 
+Num obstacles = 1
+Header angle : 0.872665
+*	Speed = 2.69188
+At 4.28303, 4.35135
+Goal angle : 0.735408
+Obstacle is 0.72872m away at angle 227.5 with width 51 
+Num obstacles = 1
+Header angle : 0.733038
+*	Speed = 3.15437
+At 4.35451, 4.65858
+Goal angle : 0.48652
+Obstacle is 1.00974m away at angle 233.5 with width 39 
+Num obstacles = 1
+Header angle : 0.488692
+*	Speed = 3.59933
+At 4.45961, 5.00283
+Goal angle : 6.27794
+Obstacle is 1.35623m away at angle 237.5 with width 31 
+Num obstacles = 1
+Header angle : 6.26573
+*	Speed = 3.8547
+At 4.60302, 5.36063
+Goal angle : 5.54573
+Obstacle is 1.73571m away at angle 239.5 with width 25 
+Num obstacles = 1
+Header angle : 5.55015
+*	Speed = 3.64376
+At 4.76683, 5.68611
+Goal angle : 5.03999
+Num obstacles = 0
+Header angle : 5.044
+*	Speed = 3.2003
+At 4.92969, 5.9616
+Goal angle : 4.78537
+Num obstacles = 0
+Header angle : 4.7822
+*	Speed = 2.73652
+At 5.08355, 6.18791
+Goal angle : 4.64217
+Num obstacles = 0
+Header angle : 4.64258
+*	Speed = 2.2724
+At 5.22495, 6.36579
+Goal angle : 4.54915
+Num obstacles = 0
+Header angle : 4.55531
+*	Speed = 1.81737
+At 5.35195, 6.49579
+Goal angle : 4.4813
+Num obstacles = 0
+Header angle : 4.4855
+*	Speed = 1.38417
+At 5.46301, 6.5784
+Goal angle : 4.42705
+Num obstacles = 0
+Header angle : 4.43314
+*	Speed = 1.00517
+At 5.55701, 6.61401
+Goal angle : 4.38008
+Num obstacles = 0
+Header angle : 4.38078
+*	Speed = 0.765872
+At 5.63281, 6.60305
+Goal angle : 4.33642
+Num obstacles = 0
+Header angle : 4.32842
+*	Speed = 0.802798
+At 5.68927, 6.54598
+Goal angle : 4.29299
+Num obstacles = 0
+Header angle : 4.29351
+*	Speed = 1.09059
+At 5.72559, 6.44315
+Goal angle : 4.24652
+Num obstacles = 0
+Header angle : 4.24115
+*	Speed = 1.48803
+At 5.74057, 6.2951
+Goal angle : 4.19295
+Num obstacles = 0
+Header angle : 4.18879
+*	Speed = 1.92802
+At 5.73295, 6.10245
+Goal angle : 4.12565
+Num obstacles = 0
+Header angle : 4.11898
+*	Speed = 2.38504
+At 5.70105, 5.86609
+Goal angle : 4.03191
+Num obstacles = 0
+Header angle : 4.03171
+*	Speed = 2.84574
+At 5.64289, 5.58752
+Goal angle : 3.88203
+Num obstacles = 0
+Header angle : 3.87463
+*	Speed = 3.28754
+At 5.55567, 5.27055
+Goal angle : 3.5947
+Num obstacles = 0
+Header angle : 3.59538
+*	Speed = 3.68154
+At 5.43511, 4.9227
+Condition 1
+Min = 0.441925
+-531.442
+Best gamma = 1.49

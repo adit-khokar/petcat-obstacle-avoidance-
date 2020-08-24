@@ -7,22 +7,25 @@ Preliminary tests showed that the value for gamma should lie between 0 and 1.5.<
 ### Results :
 ##### Test 1 
 [Moving from (0,0) to (4,-2)]</br>
-![Rewards VS Gamma](obs-avd/RewardsVsGamma1.png)</br>
+![Rewards VS Gamma](obs-avd/samples/RewardsVsGamma1.png)</br>
   Best Path (Gamma = 1.47) : </br>
-![Best Path](obs-avd/BestPath1.png)</br>
+![Best Path](obs-avd/samples/BestPath1.png)</br>
 
 ##### Test 2
 [Moving from (0, 0) to (5, 5)] </br>
-![Reward Vs Gamma](obs-avd/RvsG2.png)</br>
+![Reward Vs Gamma](obs-avd/samples/RvsG2.png)</br>
   Best Path (Gamma = 0.59) : </br>
-![Best Path](obs-avd/BestPath2.png)</br>
+![Best Path](obs-avd/samples/BestPath2.png)</br>
 
 Both environments work well with Gamma = 1 </br>
-![Test 1 with Gamma = 1](obs-avd/T1_Gas1.png)</br>
-![Test 2 with Gamma = 1](obs-avd/T2_Gas1.png)</br>
+![Test 1 with Gamma = 1](obs-avd/samples/T1_Gas1.png)</br>
+![Test 2 with Gamma = 1](obs-avd/samples/T2_Gas1.png)</br>
 
 ### With Mobile Obstacles
 We realised the need to use lower values for Gamma.</br>
 Best Path : Gamma = 0.59</br>
-![Results with Gamma = 0.59](obs-avd/Mobile.gif)</br>
+![Results with Gamma = 0.59](obs-avd/samples/Mobile.gif)</br>
 
+#### Velocity Control
+
+![Velocity control additions](obs-avd/samples/vel_c.gif)

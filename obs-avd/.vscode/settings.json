@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.aiml": "xml",
+        "cmath": "cpp"
+    }
+}
